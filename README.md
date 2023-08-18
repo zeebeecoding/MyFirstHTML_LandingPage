@@ -28,3 +28,7 @@ Welcome to my first HTML landing page project! This project was developed as an 
    ```sh
    git clone https://github.com/zeebeecoding/MyFirstHTML_LandingPage.git
    ```
+
+## Live Demo
+
+Check out the live version of the website: [My Website](https://zeebeecoding.github.io/MyFirstHTML_LandingPage/)
