@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -38,6 +38,193 @@
     <p>Using "i" tag.</p>
     <h3>How to Underlined any text?</h3>
     <p>Using "u" tag.</p>
+</body>
+
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Concepts Example</title>
+    <style>
+        /* Inline CSS style */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Basic HTML Structure -->
+    <header>
+        <h1>Welcome to HTML Concepts!</h1>
+        <nav>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#elements">HTML Elements</a></li>
+                <li><a href="#attributes">Attributes</a></li>
+                <li><a href="#tables">Tables</a></li>
+                <li><a href="#entities">HTML Entities</a></li>
+                <li><a href="#forms">Forms</a></li>
+                <li><a href="#comments">Comments</a></li>
+                <li><a href="#links">Links and Anchors</a></li>
+                <li><a href="#images">Images</a></li>
+                <li><a href="#lists">Lists</a></li>
+                <li><a href="#headings">Headings</a></li>
+                <li><a href="#semantic">Semantic Elements</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Overview Section -->
+    <section id="overview">
+        <h2>Overview</h2>
+        <p>This is a simple HTML example that demonstrates various HTML concepts.</p>
+    </section>
+
+    <!-- HTML Elements Section -->
+    <section id="elements">
+        <h2>HTML Elements</h2>
+        <p>Here are some common HTML elements:</p>
+        <ul>
+            <li><strong>&lt;p&gt;</strong> - Paragraph</li>
+            <li><strong>&lt;a&gt;</strong> - Anchor (link)</li>
+            <li><strong>&lt;img&gt;</strong> - Image</li>
+            <li><strong>&lt;ul&gt;</strong> - Unordered List</li>
+            <li><strong>&lt;ol&gt;</strong> - Ordered List</li>
+            <li><strong>&lt;h1&gt;</strong> to <strong>&lt;h6&gt;</strong> - Headings</li>
+        </ul>
+    </section>
+
+    <!-- Attributes Section -->
+    <section id="attributes">
+        <h2>Attributes</h2>
+        <p>HTML elements can have attributes:</p>
+        <p>This is an <strong>&lt;a href="https://www.example.com"&gt;example link&lt;/a&gt;</strong>.</p>
+        <p><strong>&lt;img src="image.jpg" alt="Image"&gt;</strong></p>
+    </section>
+
+    <!-- Tables Section -->
+    <section id="tables">
+        <h2>Tables</h2>
+        <table>
+            <caption>Sample Table</caption>
+            <thead>
+                <tr>
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                    <th>Header 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Data 1</td>
+                    <td>Data 2</td>
+                    <td>Data 3</td>
+                </tr>
+                <tr>
+                    <td>Data 4</td>
+                    <td>Data 5</td>
+                    <td>Data 6</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- HTML Entities -->
+    <section id="entities">
+        <h2>HTML Entities</h2>
+        <p>HTML entities are used to display special characters that have reserved meanings in HTML. For example:</p>
+        <p>&lt;&lt; represents less than</p>
+        <p>&gt;&gt; represents greater than</p>
+        <p>&amp;amp; represents the ampersand character itself</p>
+    </section>
+
+    <!-- Forms Section -->
+    <section id="forms">
+        <h2>Forms</h2>
+        <p>HTML forms allow users to input data that can be sent to a server for processing. Here's a basic example:</p>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Comments Section -->
+    <section id="comments">
+        <h2>Comments</h2>
+        <p>HTML comments are used to provide notes within the code that won't be displayed in the browser:</p>
+        <!-- This is a comment that won't be displayed in the browser -->
+    </section>
+
+    <!-- Links and Anchors Section -->
+    <section id="links">
+        <h2>Links and Anchors</h2>
+        <p>Links, created using the &lt;a&gt; element, allow users to navigate between different web pages:</p>
+        <a href="https://www.example.com">Visit Example Website</a>
+    </section>
+
+    <!-- Images Section -->
+    <section id="images">
+        <h2>Images</h2>
+        <p>Images can be embedded in a page using the &lt;img&gt; element:</p>
+        <img src="/profilepic1.jpeg" alt="Description of the image">
+    </section>
+
+    <!-- Lists Section -->
+    <section id="lists">
+        <h2>Lists</h2>
+        <p>Lists can be ordered or unordered and are useful for presenting information in a structured way:</p>
+        <ul>
+            <li>Unordered List Item 1</li>
+            <li>Unordered List Item 2</li>
+        </ul>
+        <ol>
+            <li>Ordered List Item 1</li>
+            <li>Ordered List Item 2</li>
+        </ol>
+    </section>
+
+    <!-- Headings Section -->
+    <section id="headings">
+        <h2>Headings</h2>
+        <p>Headings are used to create hierarchical structure in a document. There are six levels of headings:</p>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+    </section>
+
+    <!-- Semantic Elements Section -->
+    <section id="semantic">
+        <h2>Semantic Elements</h2>
+        <p>HTML5 introduced semantic elements that give meaning to the structure of web content:</p>
+        <header>Header Element</header>
+        <nav>Navigation Element</nav>
+        <main>Main Content Element</main>
+        <footer>Footer Element</footer>
+    </section>
+
 </body>
 
 </html>
